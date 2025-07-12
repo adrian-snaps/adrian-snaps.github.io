@@ -1,16 +1,15 @@
 ---
-description: Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.
+description: Through photography, the beauty of Mother Nature can be frozen in time.
 menus: "main"
 title: Nature
-categories: ["nature"]
 weight: 3
 params:
-  featured_image: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+  featured_image: DSC07598.jpg
   theme: dark
   sort_order: desc
-  sort_by: Name # Exif.Date
+  sort_by: Name
 resources:
-  - src: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+  - src: DSC07598.jpg
     params:
       cover: true
 ---

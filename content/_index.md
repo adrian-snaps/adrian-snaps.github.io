@@ -1,7 +1,6 @@
 ---
-description: An example site for hugo-theme-gallery. Images from Unsplash.
-#lastmod: 2023-07-05
-title: Hugo Gallery
+description: My favorite snaps over the years.
+title: Galleries
 resources:
   - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
     params:

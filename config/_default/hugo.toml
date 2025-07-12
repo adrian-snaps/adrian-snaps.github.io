@@ -1,31 +1,25 @@
-copyright = "© Your Name"
+copyright = "© Adrian Patterson"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 languageCode = "en"
-timeZone = "Europe/Berlin"
+timeZone = "America/New_York"
 timeout = "120s"
-title = "Gallery"
+title = "Adrian Snaps"
 
 [params]
   defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
+  description = "My favorite pictures over the years."
   title = "My Gallery"
   [params.author]
-    email = "user@example.com"
-    name = "Your Name"
+    email = "patterson.n.adrian@gmail.com"
+    name = "Adrian Patterson"
   [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
-    #website = "https://example.com"
-    #mastodon = "https://example.com"
-    #pixelfed = "https://example.com"
-    #mixcloud = "https://example.com"
-    #flickr = "https://www.flickr.com"
-    #500px = "https://500px"
+    facebook = "https://www.facebook.com/adrianpatts/"
+    instagram = "https://www.instagram.com/adrian_patts"
+    github = "https://github.com/adrian-patterson"
+    email = "mailto:patterson.n.adrian@gmail.com"
+    website = "https://adrian-patterson.github.io"
   [params.gallery]
     #boxSpacing = 10
     #targetRowHeight = 288

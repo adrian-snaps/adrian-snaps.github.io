@@ -4,7 +4,7 @@ disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 languageCode = "en"
 timeZone = "America/New_York"
-timeout = "120s"
+timeout = "1000s"
 title = "Adrian Snaps"
 
 [params]

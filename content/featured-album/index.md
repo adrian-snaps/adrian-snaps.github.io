@@ -6,77 +6,77 @@ params:
   private: true 
 description: Featured snaps
 resources:
-  - src: DSC08399.jpg
-    params:
-      weight: 9772
-  - src: DSC08800.jpg
-    params:
-      weight: 9596
-  - src: DSC05979.jpg
-    params:
-      weight: 9052
-  - src: DSC08537.jpg
-    params:
-      weight: 7045
-  - src: DSC08778.jpg
-    params:
-      weight: 5623
-  - src: DSC08897.jpg
-    params:
-      weight: 5504
-  - src: DSC09727.jpg
-    params:
-      weight: 5457
-  - src: DSC_0421.jpg
-    params:
-      weight: 5376
-  - src: DSC_0177.jpg
-    params:
-      weight: 5305
-  - src: DSC09202.jpg
-    params:
-      weight: 4628
-  - src: DSC06012.jpg
-    params:
-      weight: 4440
-  - src: DSC08398.jpg
-    params:
-      weight: 4182
-  - src: DSC06144.jpg
-    params:
-      weight: 4165
-  - src: DSC06091.jpg
-    params:
-      weight: 3261
-  - src: DSC_0406.jpg
-    params:
-      weight: 2958
-  - src: DSC08389.jpg
-    params:
-      weight: 2474
-      cover: true
   - src: DSC09325.jpg
     params:
-      weight: 2233
-  - src: DSC09173.jpg
+      weight: 9944
+      cover: true
+  - src: DSC_0177.jpg
     params:
-      weight: 1733
-  - src: DSC09113.jpg
+      weight: 9759
+  - src: DSC09202.jpg
     params:
-      weight: 1640
-  - src: DSC06092.jpg
+      weight: 9666
+  - src: DSC08537.jpg
     params:
-      weight: 1438
-  - src: DSC09071.jpg
+      weight: 9493
+  - src: DSC_0421.jpg
     params:
-      weight: 1042
+      weight: 9097
+  - src: DSC08389.jpg
+    params:
+      weight: 9082
   - src: DSC09057.jpg
     params:
-      weight: 1010
-  - src: DSC09110.jpg
+      weight: 8435
+  - src: DSC_0406.jpg
     params:
-      weight: 874
+      weight: 8219
+  - src: DSC06092.jpg
+    params:
+      weight: 6138
+  - src: DSC06012.jpg
+    params:
+      weight: 5814
+  - src: DSC08897.jpg
+    params:
+      weight: 4859
+  - src: DSC06144.jpg
+    params:
+      weight: 4729
+  - src: DSC08398.jpg
+    params:
+      weight: 4481
+  - src: DSC05979.jpg
+    params:
+      weight: 4276
   - src: DSC_0060.jpg
     params:
-      weight: 86
+      weight: 4203
+  - src: DSC09727.jpg
+    params:
+      weight: 3254
+  - src: DSC08399.jpg
+    params:
+      weight: 2716
+  - src: DSC09110.jpg
+    params:
+      weight: 1890
+  - src: DSC06091.jpg
+    params:
+      weight: 1845
+  - src: DSC08778.jpg
+    params:
+      weight: 1558
+  - src: DSC09071.jpg
+    params:
+      weight: 942
+  - src: DSC09173.jpg
+    params:
+      weight: 735
+  - src: DSC09113.jpg
+    params:
+      weight: 582
+  - src: DSC08800.jpg
+    params:
+      weight: 151
 ---

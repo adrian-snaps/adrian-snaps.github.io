@@ -12,13 +12,13 @@ resources:
   - src: DSC09517.jpg
     params:
       weight: 8974
-      cover: true
   - src: DSC09570.jpg
     params:
       weight: 8611
   - src: DSC09410.jpg
     params:
       weight: 7607
+      cover: true
   - src: DSC09347.jpg
     params:
       weight: 6946

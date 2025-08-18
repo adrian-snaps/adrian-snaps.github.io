@@ -12,7 +12,6 @@ resources:
   - src: DSC06663.jpg
     params:
       weight: 9840
-      cover: true
   - src: DSC_0060.jpg
     params:
       weight: 9594
@@ -25,6 +24,7 @@ resources:
   - src: DSC09827.jpg
     params:
       weight: 9218
+      cover: true
   - src: DSC09659.jpg
     params:
       weight: 9195

@@ -4,12 +4,13 @@ title: Featured
 params:
   featured: true
   private: true 
+  sort_order: desc
+  sort_by: Params.weight
 description: Featured snaps
 resources:
   - src: DSC09325.jpg
     params:
       weight: 9944
-      cover: true
   - src: DSC_0177.jpg
     params:
       weight: 9759
@@ -31,6 +32,7 @@ resources:
   - src: DSC_0406.jpg
     params:
       weight: 8219
+      cover: true
   - src: DSC06092.jpg
     params:
       weight: 6138

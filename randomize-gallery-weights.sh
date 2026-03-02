@@ -46,10 +46,10 @@ fi
 # Change to the gallery directory
 cd "$GALLERY_DIR"
 
-# Check if there are any image files (jpg, jpeg, png, gif, webp)
-IMAGE_COUNT=$(find . -maxdepth 1 \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" \) -type f | wc -l)
+# Check if there are any image files (jpg, jpeg, png, gif, webp, tif)
+IMAGE_COUNT=$(find . -maxdepth 1 \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" -o -name "*.tif" \) -type f | wc -l)
 if [ "$IMAGE_COUNT" -eq 0 ]; then
-    echo "No image files found in '$GALLERY_DIR' (.jpg, .jpeg, .png, .gif, .webp)"
+    echo "No image files found in '$GALLERY_DIR' (.jpg, .jpeg, .png, .gif, .webp, .tif)"
     exit 1
 fi
 
@@ -61,7 +61,7 @@ TEMP_DIR=$(mktemp -d)
 trap "rm -rf $TEMP_DIR" EXIT
 
 # Generate list of current image files and shuffle them
-find . -maxdepth 1 \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" \) -type f -exec basename {} \; | shuf > "$TEMP_DIR/shuffled_files.txt"
+find . -maxdepth 1 \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" -o -name "*.tif" \) -type f -exec basename {} \; | shuf > "$TEMP_DIR/shuffled_files.txt"
 
 # Generate random weights for each file
 COUNTER=1
